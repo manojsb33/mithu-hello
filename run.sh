@@ -4,4 +4,4 @@ echo "how are you"
 
 df -h
 free -g
-host name
+hostname
