@@ -1,0 +1,20 @@
+pipeline {
+    agent any
+    stages {
+        stage("GITHUB") {
+            steps {
+                sh "echo this is github"
+            }
+        }
+    
+        stage("MAVEN"){
+            steps {
+                sh "echo this is maven"
+                
+            }
+            
+        }
+        
+    }
+    
+}
